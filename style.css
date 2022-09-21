@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background: url('https://media.istockphoto.com/photos/this-is-too-hard-picture-id484743293?k=20&m=484743293&s=612x612&w=0&h=nkzhPCgRCAhEMbJOWH9Z6KYc9xQ7oKmfxBp10UBmdyg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+    background: url("https://media.istockphoto.com/photos/math-graph-paper-background-seamless-repeating-pattern-picture-id1320331959?k=20&m=1320331959&s=612x612&w=0&h=-cyfHM36l6kmzSf1M9N7MMf-K8KY8PpvRhuJp0tDP4E=");
+    padding: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 10px;
+}
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 2px orange;
+    color: orange;
+    padding: 10px;
+}
+.input::placeholder{
+    color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.btn{
+    background-color: orange;
+    color: white;
+    border: none;
+    Width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    filter: brightness(0.9);
+}
+.score{
+    color: orange;
+    text-align: right;
+}
